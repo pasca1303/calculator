@@ -130,9 +130,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 600px;
   height: 650px;
   margin: 0 auto;
-  border: 12px solid black;
+  border: 10px solid black;
   border-radius: 30px;
-  padding: 20px 20px 20px 20px; }
+  padding: 20px 20px 20px 20px;
+  background-color: #646464; }
   .calculator__screen-input {
     width: 400px;
     height: 100px;
