@@ -4,16 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>hello world!</h1>
-    <h2>hello world!</h2>
-    <p>also i want to add some letters</p>
-    <div class="new">some letters</div>
-    <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-    </ul>
+    <div class="container">
+        <form class="calculator calc">
+            <div class="calculator__screen">
+                <input type="text" class="calculator__screen-input calculator__result-field">
+            </div>
+            <div class="calculator__buttons">
+                <div class="calculator__buttons_body">
+                    <div class="calculator__buttons_body_reset btn-reset">
+                        Сбросить
+                    </div>
+                    <div class="calculator__buttons_body_0-9">
+                        <div class="calculator__buttons_1 btn-num">1</div>
+                        <div class="calculator__buttons_2 btn-num">2</div>
+                        <div class="calculator__buttons_3 btn-num">3</div>
+                        <div class="calculator__buttons_4 btn-num">4</div>
+                        <div class="calculator__buttons_5 btn-num">5</div>
+                        <div class="calculator__buttons_6 btn-num">6</div>
+                        <div class="calculator__buttons_7 btn-num">7</div>
+                        <div class="calculator__buttons_8 btn-num">8</div>
+                        <div class="calculator__buttons_9 btn-num">9</div>
+                        <div class="calculator__buttton_0 btn-num">0</div>
+                    </div>
+                    
+                </div>
+                <div class="calculator__buttons_signs">
+                    <div class="sign-plus sign btn-num">+</div>
+                    <div class="sign-minus sign btn-num">-</div>
+                    <div class="sign-multiply sign btn-num">*</div>
+                    <div class="sign-divide sign btn-num">/</div>
+                    <div class="sign-enter sign ">enter</div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <h1 style="width: 400px; height: 150px;" class="btn-num" >hello world</h1>
+    <script src="js/script.js"></script>
 </body>
 </html>
